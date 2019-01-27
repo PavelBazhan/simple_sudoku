@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell00"
+                        style="@style/numberButton"
+                        android:text="00" />
+
+                    <TextView
+                        android:id="@+id/cell01"
+                        style="@style/numberButton"
+                        android:text="01" />
+
+                    <TextView
+                        android:id="@+id/cell02"
+                        style="@style/numberButton"
+                        android:text="02" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell09"
+                        style="@style/numberButton"
+                        android:text="09" />
+
+                    <TextView
+                        android:id="@+id/cell10"
+                        style="@style/numberButton"
+                        android:text="10" />
+
+                    <TextView
+                        android:id="@+id/cell11"
+                        style="@style/numberButton"
+                        android:text="11" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell18"
+                        style="@style/numberButton"
+                        android:text="18" />
+
+                    <TextView
+                        android:id="@+id/cell19"
+                        style="@style/numberButton"
+                        android:text="19" />
+
+                    <TextView
+                        android:id="@+id/cell20"
+                        style="@style/numberButton"
+                        android:text="20" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell03"
+                        style="@style/numberButton"
+                        android:text="03" />
+
+                    <TextView
+                        android:id="@+id/cell04"
+                        style="@style/numberButton"
+                        android:text="04" />
+
+                    <TextView
+                        android:id="@+id/cell05"
+                        style="@style/numberButton"
+                        android:text="05" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell12"
+                        style="@style/numberButton"
+                        android:text="12" />
+
+                    <TextView
+                        android:id="@+id/cell13"
+                        style="@style/numberButton"
+                        android:text="13" />
+
+                    <TextView
+                        android:id="@+id/cell14"
+                        style="@style/numberButton"
+                        android:text="14" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell21"
+                        style="@style/numberButton"
+                        android:text="21" />
+
+                    <TextView
+                        android:id="@+id/cell22"
+                        style="@style/numberButton"
+                        android:text="22" />
+
+                    <TextView
+                        android:id="@+id/cell23"
+                        style="@style/numberButton"
+                        android:text="23" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell06"
+                        style="@style/numberButton"
+                        android:text="06" />
+
+                    <TextView
+                        android:id="@+id/cell07"
+                        style="@style/numberButton"
+                        android:text="07" />
+
+                    <TextView
+                        android:id="@+id/cell08"
+                        style="@style/numberButton"
+                        android:text="08" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell15"
+                        style="@style/numberButton"
+                        android:text="15" />
+
+                    <TextView
+                        android:id="@+id/cell16"
+                        style="@style/numberButton"
+                        android:text="16" />
+
+                    <TextView
+                        android:id="@+id/cell17"
+                        style="@style/numberButton"
+                        android:text="17" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell24"
+                        style="@style/numberButton"
+                        android:text="24" />
+
+                    <TextView
+                        android:id="@+id/cell25"
+                        style="@style/numberButton"
+                        android:text="25" />
+
+                    <TextView
+                        android:id="@+id/cell26"
+                        style="@style/numberButton"
+                        android:text="26" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell27"
+                        style="@style/numberButton"
+                        android:text="27" />
+
+                    <TextView
+                        android:id="@+id/cell28"
+                        style="@style/numberButton"
+                        android:text="28" />
+
+                    <TextView
+                        android:id="@+id/cell29"
+                        style="@style/numberButton"
+                        android:text="29" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell36"
+                        style="@style/numberButton"
+                        android:text="36" />
+
+                    <TextView
+                        android:id="@+id/cell37"
+                        style="@style/numberButton"
+                        android:text="37" />
+
+                    <TextView
+                        android:id="@+id/cell38"
+                        style="@style/numberButton"
+                        android:text="38" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell45"
+                        style="@style/numberButton"
+                        android:text="45" />
+
+                    <TextView
+                        android:id="@+id/cell46"
+                        style="@style/numberButton"
+                        android:text="46" />
+
+                    <TextView
+                        android:id="@+id/cell47"
+                        style="@style/numberButton"
+                        android:text="47" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell30"
+                        style="@style/numberButton"
+                        android:text="30" />
+
+                    <TextView
+                        android:id="@+id/cell31"
+                        style="@style/numberButton"
+                        android:text="31" />
+
+                    <TextView
+                        android:id="@+id/cell32"
+                        style="@style/numberButton"
+                        android:text="32" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell39"
+                        style="@style/numberButton"
+                        android:text="39" />
+
+                    <TextView
+                        android:id="@+id/cell40"
+                        style="@style/numberButton"
+                        android:text="40" />
+
+                    <TextView
+                        android:id="@+id/cell41"
+                        style="@style/numberButton"
+                        android:text="41" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell48"
+                        style="@style/numberButton"
+                        android:text="48" />
+
+                    <TextView
+                        android:id="@+id/cell49"
+                        style="@style/numberButton"
+                        android:text="49" />
+
+                    <TextView
+                        android:id="@+id/cell50"
+                        style="@style/numberButton"
+                        android:text="50" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell33"
+                        style="@style/numberButton"
+                        android:text="33" />
+
+                    <TextView
+                        android:id="@+id/cell34"
+                        style="@style/numberButton"
+                        android:text="34" />
+
+                    <TextView
+                        android:id="@+id/cell35"
+                        style="@style/numberButton"
+                        android:text="35" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell42"
+                        style="@style/numberButton"
+                        android:text="42" />
+
+                    <TextView
+                        android:id="@+id/cell43"
+                        style="@style/numberButton"
+                        android:text="43" />
+
+                    <TextView
+                        android:id="@+id/cell44"
+                        style="@style/numberButton"
+                        android:text="44" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell51"
+                        style="@style/numberButton"
+                        android:text="51" />
+
+                    <TextView
+                        android:id="@+id/cell52"
+                        style="@style/numberButton"
+                        android:text="52" />
+
+                    <TextView
+                        android:id="@+id/cell53"
+                        style="@style/numberButton"
+                        android:text="53" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell54"
+                        style="@style/numberButton"
+                        android:text="54" />
+
+                    <TextView
+                        android:id="@+id/cell55"
+                        style="@style/numberButton"
+                        android:text="55" />
+
+                    <TextView
+                        android:id="@+id/cell56"
+                        style="@style/numberButton"
+                        android:text="56" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell63"
+                        style="@style/numberButton"
+                        android:text="63" />
+
+                    <TextView
+                        android:id="@+id/cell64"
+                        style="@style/numberButton"
+                        android:text="64" />
+
+                    <TextView
+                        android:id="@+id/cell65"
+                        style="@style/numberButton"
+                        android:text="65" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell72"
+                        style="@style/numberButton"
+                        android:text="72" />
+
+                    <TextView
+                        android:id="@+id/cell73"
+                        style="@style/numberButton"
+                        android:text="73" />
+
+                    <TextView
+                        android:id="@+id/cell74"
+                        style="@style/numberButton"
+                        android:text="74" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell57"
+                        style="@style/numberButton"
+                        android:text="57" />
+
+                    <TextView
+                        android:id="@+id/cell58"
+                        style="@style/numberButton"
+                        android:text="58" />
+
+                    <TextView
+                        android:id="@+id/cell59"
+                        style="@style/numberButton"
+                        android:text="59" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell66"
+                        style="@style/numberButton"
+                        android:text="66" />
+
+                    <TextView
+                        android:id="@+id/cell67"
+                        style="@style/numberButton"
+                        android:text="67" />
+
+                    <TextView
+                        android:id="@+id/cell68"
+                        style="@style/numberButton"
+                        android:text="68" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell75"
+                        style="@style/numberButton"
+                        android:text="75" />
+
+                    <TextView
+                        android:id="@+id/cell76"
+                        style="@style/numberButton"
+                        android:text="76" />
+
+                    <TextView
+                        android:id="@+id/cell77"
+                        style="@style/numberButton"
+                        android:text="77" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell60"
+                        style="@style/numberButton"
+                        android:text="60" />
+
+                    <TextView
+                        android:id="@+id/cell61"
+                        style="@style/numberButton"
+                        android:text="61" />
+
+                    <TextView
+                        android:id="@+id/cell62"
+                        style="@style/numberButton"
+                        android:text="62" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell69"
+                        style="@style/numberButton"
+                        android:text="69" />
+
+                    <TextView
+                        android:id="@+id/cell70"
+                        style="@style/numberButton"
+                        android:text="70" />
+
+                    <TextView
+                        android:id="@+id/cell71"
+                        style="@style/numberButton"
+                        android:text="71" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/cell78"
+                        style="@style/numberButton"
+                        android:text="78" />
+
+                    <TextView
+                        android:id="@+id/cell79"
+                        style="@style/numberButton"
+                        android:text="79" />
+
+                    <TextView
+                        android:id="@+id/cell80"
+                        style="@style/numberButton"
+                        android:text="80" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="You Win! Well Done!"
+        android:textColor="#00000000"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/graycover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00000000"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/numb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="0"
+        android:textColor="#00FFFFFF"
+        android:textSize="65sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/graycover" />
+
+    <ImageView
+        android:id="@+id/num01"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num01"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num01wh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num01wh"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num02"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num02"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num02wh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num02wh"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num03"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num03"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num03wh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num03wh"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num04"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num04"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num04wh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num04wh"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num05"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num05"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num05wh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num05wh"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num06"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num06"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num06wh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num06wh"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num07"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num07"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num07wh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num07wh"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num08"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num08"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num08wh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num08wh"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num09"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num09"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/num09wh"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/num09wh"
+        android:scaleType="center"
+        android:visibility="gone"/>
+
+</android.support.constraint.ConstraintLayout>
